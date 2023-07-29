@@ -12,8 +12,8 @@
     {
       "id": "54328e43-56e9-4800-b3b0-f3887deb3fe0",
       "name": "Ex. 2 (task)",
-      "guide": "c01.md",
-      "py": "c01.py",
+      "guide": "c02.md",
+      "py": "c02.py",
       "tests": [{
         "in": [],
         "out": [
