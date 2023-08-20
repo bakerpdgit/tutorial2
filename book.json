@@ -31,17 +31,42 @@
             "id": "UDTL",
             "name": "Using the datetime library",
             "bookLink": "./datetime_library/book.json"      
-            },                        	
-		{
-            "id": "AARLI",
-            "name": "Adding and removing list items",
-            "bookLink": "./adding_and_removing_list_items/book.json"  
-		},	
-		{
+            }, 
+            {
+            "id": "NCS",
+            "name": "Nested control structures",
+            "bookLink": "./nested_control_structures/book.json"      
+            },
+            {
+            "id": "LAGV",
+            "name": "Local and Global Variables",
+            "bookLink": "./local_and_global_variables/book.json"      
+            },            
+            {
+            "id": "LSTC",
+            "name": "List Comprehensions",
+            "bookLink": "./list_comprehensions/book.json"      
+            },
+            {
+            "id": "WWA",
+            "name": "Arrays vs Lists",
+            "bookLink": "./arrays/book.json"  
+            },             
+            {
             "id": "UEWL",
             "name": "Using enumerate with lists",
             "bookLink": "./using_enumerate_with_lists/book.json"  
-		},
+            },
+            {
+            "id": "CUREC",
+            "name": "Creating and using records",
+            "bookLink": "./records/book.json"  
+            },                       	
+		{
+            "id": "RLI",
+            "name": "Removing list items",
+            "bookLink": "./removing_list_items/book.json"  
+		},	
 		{
             "id": "LSAM",
             "name": "List slicing and methods",
@@ -57,6 +82,11 @@
             "name": "Data structures as parameters",
             "bookLink": "./data_structures_as_parameters/book.json"
 		},
+		{
+            "id": "RESUBP",
+            "name": "Review Exercise - Subprograms",
+            "bookLink": "./review_exercises_subprograms/book.json"
+            },     
 		{
             "id": "BEH",
             "name": "Basic error handling",

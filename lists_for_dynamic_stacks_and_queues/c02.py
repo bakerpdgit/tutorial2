@@ -18,7 +18,7 @@ actions_stack = Stack()
 words = []
 
 while True:
-action = input("Choose 1) add word, 2) toggle last word lower/upper case, 3) undo, 4) quit: ")
+    action = input("Choose 1) add word, 2) toggle last word lower/upper case, 3) undo, 4) quit: ")
     if action == "1": # user adds new word
         word = input("Enter a lowercase word to add: ").lower()
         words.append(word)
