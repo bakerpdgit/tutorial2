@@ -1,0 +1,31 @@
+{
+	"name": "Variable scopes",
+    "id": "vs",
+    "children": [
+        {
+            "id": "vs01",
+            "name": "Ex. 1 (example)",
+            "guide": "./c01.md",
+            "py": "./c01.py",
+			"isExample": "True"
+        },
+        {
+            "id": "vs02",
+            "name": "Ex. 2 (task)",
+            "guide": "c02.md",
+            "py": "c02.py",
+            "tests": [
+              {
+                "in": [],
+                "out": [
+                    {"typ": "c-", "pattern": "add_colour\\(colour\\):global", "ignore": "w"},
+                    {"typ": "c-", "pattern": "count_colours\\(\\):global", "ignore": "w"},
+                    {"typ": "c+", "pattern": "reset_colours\\(\\):globalcolours", "ignore": "w"},
+                    {"typ": "c+", "pattern": "set_favourite\\(colour\\):globalfavourite_colour", "ignore": "w"},
+                    {"typ": "c-", "pattern": "print_favourite\\(\\):global", "ignore": "w"}
+                ]
+              }
+            ]
+        }
+    ]
+}
