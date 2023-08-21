@@ -116,6 +116,16 @@
             "id": "OPAU",
             "name": "Optional parameters and unpacking",
             "bookLink": "./optional_parameters_and_unpacking/book.json"      
-		}
+		},
+        {
+            "id": "FP",
+            "name": "Functional programming",
+            "bookLink": "./functional_programming/book.json"
+        },
+        {
+            "id": "LAP",
+            "name": "Lambdas and partials",
+            "bookLink": "./lambdas/book.json"
+        }
     ]
 }
