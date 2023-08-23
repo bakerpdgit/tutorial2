@@ -126,6 +126,11 @@
             "id": "LAP",
             "name": "Lambdas and partials",
             "bookLink": "./lambdas/book.json"
+        },
+        {
+            "id": "BM",
+            "name": "Bit manipulation",
+            "bookLink": "./bit_manipulation/book.json"
         }
     ]
 }
