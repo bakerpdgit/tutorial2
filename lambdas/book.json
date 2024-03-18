@@ -16,9 +16,9 @@
             "py": "c02.py",
             "tests": [
                 {"in": [], "out": [
-                    {"typ": "c+", "pattern": "lambda (.): \\1\\.upper\\(\\)", "ignore": "w"},
-                    {"typ": "c+", "pattern": "lambda (.), (.): \\1 \\+ \\2", "ignore": "w"},
-                    {"typ": "c+", "pattern": "lambda (.): \\1 \\+ \\1\\[::-1\\]", "ignore": "w"}
+                    {"typ": "c+", "pattern": "lambda (.+): \\1\\.upper\\(\\)", "ignore": "w"},
+                    {"typ": "c+", "pattern": "lambda (.+), (.+): \\1 \\+ \\2", "ignore": "w"},
+                    {"typ": "c+", "pattern": "lambda (.+): \\1 \\+ \\1\\[::-1\\]|lambda (.+): \\2 \\+ \\2\\.reverse\\(\\)|lambda (.+): \\3 \\+ reversed\\(\\3\\)", "ignore": "w"}
                 ]}
             ]
         },
