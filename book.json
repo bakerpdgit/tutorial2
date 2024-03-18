@@ -131,6 +131,16 @@
             "id": "BM",
             "name": "Bit manipulation",
             "bookLink": "./bit_manipulation/book.json"
+        },
+        {
+            "id": "DAS",
+            "name": "Sets and dictionaries",
+            "bookLink": "./dicts_and_sets/book.json"
+        },
+        {
+            "id": "DM",
+            "name": "Dictionary methods",
+            "bookLink": "./dictionary_methods/book.json"
         }
     ]
 }
