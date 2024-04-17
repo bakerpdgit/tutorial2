@@ -8,7 +8,7 @@ categories = {"capital": capitals, "national animal": animals, "national plant":
 def update(category):
     country = input("Enter country name: ")
     datum = input(f"Enter the {category} of {country}: ")
-    # Update the entry corresponding to `country` in the relevant category dictioanry
+    # Update the entry corresponding to `country` in the relevant category dictionary
     categories[category]___ = datum
     print(f"The {category} of {country} is now {datum}")
 
@@ -42,11 +42,13 @@ def main():
             continue
 
         # Iterate through the keys of the categories dictionary
+        # You can use .keys() or just iterate through the dictionary directly, which automatically gives keys
         print("Valid categories")
         for ___:
             print(___)
         category = input("Enter a category: ")
         # Validate by running this code only if the inputted category is *not* one of the keys
+        # Again you can use .keys() or check membership of the dictionary directly
         if ___:
             print("Invalid category")
             continue
