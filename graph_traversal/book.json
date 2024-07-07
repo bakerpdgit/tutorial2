@@ -1,0 +1,63 @@
+{
+    "name": "Graph Traversal",
+    "id": "gt",
+    "children": [
+        {
+            "id": "gt01",
+            "name": "Ex. 1 (example)",
+            "guide": "./c01.md",
+            "py": "./c01.py",
+            "isExample": "True"
+        },
+        {
+            "id": "gt02",
+            "name": "Ex. 2 (task)",
+            "guide": "./c02.md",
+            "py": "./c02.py",
+            "tests": [
+                {
+                    "in": [],
+                    "out": "[1, 3, 7, 8, 2, 10, 4, 9, 5, 11, 12, 6]"
+                }
+            ]
+        },
+        {
+            "id": "gt03",
+            "name": "Ex. 3 (example)",
+            "guide": "./c03.md",
+            "py": "./c03.py",
+            "isExample": "True"
+        },
+        {
+            "id": "gt04",
+            "name": "Ex. 4 (task)",
+            "guide": "./c04.md",
+            "py": "./c04.py",
+            "tests": [
+                {
+                    "in": [],
+                    "out": "[1, 2, 3, 9, 6, 4, 8, 10, 5, 7, 11, 12]"
+                }
+            ]
+        },
+        {
+            "id": "gt05",
+            "name": "Ex. 5 (example)",
+            "guide": "./c05.md",
+            "py": "./c05.py",
+            "isExample": "True"
+        },
+        {
+            "id": "gt06",
+            "name": "Ex. 6 (task)",
+            "guide": "./c06.md",
+            "py": "./c06.py",
+            "tests": [
+                {
+                    "in": [],
+                    "out": "37\n[0, 1, 9, 2, 6, 3, 4]"
+                }
+            ]
+        }
+    ]
+}
