@@ -1,4 +1,4 @@
-from heapq import heappop, heappush
+from queue import PriorityQueue
 
 '''Graph'''
 
@@ -17,33 +17,24 @@ graph = {0: [(__, 5), (5, 15), (8, 14)],
 '''Initialisation'''
 
 num_nodes = len(graph)
-priority_queue = [_______]
-visited = [_____ for _ in range(num_nodes)]
-distances = [float("inf") for _ in range(num_nodes)]
-previous = [-1 for _ in range(num_nodes)]
-distances[____] = _____
+priority_queue = _________()
+priority_queue.put((0, 0))
+visited = [_____] * num_nodes
+distances = [float("inf")] * ______
+distances[____] = ____
 
 '''Main Algorithm'''
 
-while ____________:
+while not priority_queue.empty():
 
-    dist, curr = heappop(priority_queue) 
+    dist, curr = _________.get()
 
     if not visited[curr]: 
         ______[curr] = True 
 
-        for neighbour, weight in graph[______]:
-            if not _______[_____] and weight + dist < _____[______]: 
-                heappush(priority_queue, (_________, neighbour)) 
-                distances[neighbour] = ________
-                previous[neighbour] = ______
+        for neighbour, weight in _____[curr]:
+            if not visited[______] and _____ + _____ < distances[neighbour]: 
+                priority_queue.put((weight + dist, neighbour))
+                _____[neighbour] =_____ + _____
 
-'''Path Calculation'''
-
-dest = 4
-print(distances[dest])
-path, curr = [dest], dest
-while previous[curr] != -1:
-    curr = _______[curr]
-    path.append(curr)
-print(_______)
+print(distances[4])
