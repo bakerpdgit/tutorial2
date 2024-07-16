@@ -23,7 +23,7 @@ print(f"{iterations} iterations on a list took time {datetime.now() - start}")
 start = datetime.now()
 nums = {0}
 if iterations < 10:
-    print(f"List after 1 iteration: {nums}")
+    print(f"Set after 1 iteration: {nums}")
 
 for i in range(1, iterations):
     # Three basic operations: add, check membership, remove
