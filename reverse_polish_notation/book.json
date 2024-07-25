@@ -23,7 +23,7 @@
         },
         {
             "id": "rpn03",
-            "name": "Ex. 3 (task)",
+            "name": "Ex. 3 (example)",
             "guide": "./c03.md",
             "py": "./c03.py",
             "isExample": "True"
