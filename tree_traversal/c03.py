@@ -23,16 +23,18 @@ tree = [
 
 root = 0
 
+
 def in_order(curr):
 
-    left, right = tree[curr][1], tree[curr][2]
+  left, right = tree[curr][1], tree[curr][2]
 
-    if left is not None:
-        in_order(left) # 1. Traverse left subtree
+  if left is not None:
+    in_order(left)  # 1. Traverse left subtree
 
-    print(tree[curr][0], end=" ") # 2. Traverse root node
+  print(tree[curr][0], end=" ")  # 2. Traverse root node
 
-    if right is not None:
-        in_order(right) # 3. Traverse right subtree
+  if right is not None:
+    in_order(right)  # 3. Traverse right subtree
+
 
 in_order(root)
