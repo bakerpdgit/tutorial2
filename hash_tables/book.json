@@ -1,5 +1,5 @@
 {
-    "name": "hash tables",
+    "name": "Hash Tables",
     "id": "hash",
     "children": [
         {
@@ -17,7 +17,7 @@
             "tests": [
                 {
                     "in": [],
-                    "out": ""
+                    "out": "[5, None, None, None, 6, None, None, 7, None, None, 4, None, None, None, None, None, None, 3, None, None]\n7\n4\nLettuce is not in the hash table"
                 }
             ]
         },
@@ -36,7 +36,7 @@
             "tests": [
                 {
                     "in": [],
-                    "out": ""
+                    "out": "[None, None, None, None, None, ('horse', 14)/('shore', 38)/('hoser', 25)/None, None, None, None, None, None, None, None, None, ('petal', 56)/('plate', 93)/('leapt', 71)/None, ('bustle', 87)/('subtle', 64)/('sublet', 37)/None, None, None, None, None]\n56 93 71 14 38 25 87 64 37 "
                 }
             ]
         }
