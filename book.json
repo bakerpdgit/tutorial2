@@ -103,11 +103,6 @@
       "bookLink": "./basic_error_handling/book.json"
     },
     {
-      "id": "LFDSAQ",
-      "name": "Lists as dynamic Stacks and Queues",
-      "bookLink": "./lists_for_dynamic_stacks_and_queues/book.json"
-    },
-    {
       "id": "SPQ",
       "name": "Priority Queues static implementation",
       "bookLink": "./priority_queues_static/book.json"
