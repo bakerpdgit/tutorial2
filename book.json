@@ -136,6 +136,31 @@
       "id": "BM",
       "name": "Bit manipulation",
       "bookLink": "./bit_manipulation/book.json"
+    },
+    {
+      "id": "GBFS",
+      "name": "Graph BFS",
+      "bookLink": "./graph_bfs/book.json"
+    },
+    {
+      "id": "GDFS",
+      "name": "Graph DFS",
+      "bookLink": "./graph_dfs/book.json"
+    },
+    {
+      "id": "GDIJ",
+      "name": "Graph Dijkstra",
+      "bookLink": "./graph_dijkstra/book.json"
+    },
+    {
+      "id": "RPN",
+      "name": "Reverse Polish Notation",
+      "bookLink": "./reverse_polish_notation/book.json"
+    },
+    {
+      "id": "TT",
+      "name": "Tree Traversal",
+      "bookLink": "./tree_traversal/book.json"
     }
   ]
 }
