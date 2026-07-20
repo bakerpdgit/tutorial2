@@ -38,14 +38,14 @@
       "bookLink": "./nested_control_structures/book.json"
     },
     {
+      "id": "PRNG",
+      "name": "Using the random library",
+      "bookLink": "./random_library/book.json"
+    },
+    {
       "id": "LAGV",
       "name": "Local and Global Variables",
       "bookLink": "./local_and_global_variables/book.json"
-    },
-    {
-      "id": "LSTC",
-      "name": "List Comprehensions",
-      "bookLink": "./list_comprehensions/book.json"
     },
     {
       "id": "WWA",
@@ -73,6 +73,11 @@
       "bookLink": "./list_slicing_and_methods/book.json"
     },
     {
+      "id": "LSTC",
+      "name": "List Comprehensions",
+      "bookLink": "./list_comprehensions/book.json"
+    },
+    {
       "id": "CL",
       "name": "Copying lists",
       "bookLink": "./copying_lists/book.json"
@@ -98,9 +103,19 @@
       "bookLink": "./review_exercises_subprograms/book.json"
     },
     {
+      "id": "FHWCBANDR",
+      "name": "More file handling inc. binary",
+      "bookLink": "./more_file_handling_inc_binary/book.json"
+    },
+    {
       "id": "BEH",
       "name": "Basic error handling",
       "bookLink": "./basic_error_handling/book.json"
+    },
+    {
+      "id": "SSQ",
+      "name": "Static Stacks and Queues",
+      "bookLink": "./static_stacks_and_queues/book.json"
     },
     {
       "id": "SPQ",
@@ -108,29 +123,39 @@
       "bookLink": "./priority_queues_static/book.json"
     },
     {
-      "id": "PRNG",
-      "name": "Using the random library",
-      "bookLink": "./random_library/book.json"
+      "id": "RPN",
+      "name": "Reverse Polish Notation",
+      "bookLink": "./reverse_polish_notation/book.json"
     },
     {
-      "id": "FHWCBANDR",
-      "name": "More file handling inc. binary",
-      "bookLink": "./more_file_handling_inc_binary/book.json"
+      "id": "BSALG",
+      "name": "Binary Search Algorithm",
+      "bookLink": "./binary_search_algorithm/book.json"
     },
     {
-      "id": "OPAU",
-      "name": "Optional parameters and unpacking",
-      "bookLink": "./optional_parameters_and_unpacking/book.json"
+      "id": "SORT",
+      "name": "Sorting Algorithms",
+      "bookLink": "./sorting_algorithms/book.json"
     },
     {
-      "id": "FP",
-      "name": "Functional programming",
-      "bookLink": "./functional_programming/book.json"
+      "id": "GTDFS",
+      "name": "Graph Traversal - DFS",
+      "bookLink": "./graph_dfs/book.json"
     },
     {
-      "id": "LAP",
-      "name": "Lambdas and partials",
-      "bookLink": "./lambdas/book.json"
+      "id": "GTBFS",
+      "name": "Graph Traversal - BFS",
+      "bookLink": "./graph_bfs/book.json"
+    },
+    {
+      "id": "GTDIJ",
+      "name": "Graph Traversal - Dijkstra",
+      "bookLink": "./graph_dijkstra/book.json"
+    },
+    {
+      "id": "TTRAV",
+      "name": "Tree Traversal",
+      "bookLink": "./tree_traversal/book.json"
     },
     {
       "id": "BM",
@@ -138,29 +163,9 @@
       "bookLink": "./bit_manipulation/book.json"
     },
     {
-      "id": "GBFS",
-      "name": "Graph BFS",
-      "bookLink": "./graph_bfs/book.json"
-    },
-    {
-      "id": "GDFS",
-      "name": "Graph DFS",
-      "bookLink": "./graph_dfs/book.json"
-    },
-    {
-      "id": "GDIJ",
-      "name": "Graph Dijkstra",
-      "bookLink": "./graph_dijkstra/book.json"
-    },
-    {
-      "id": "RPN",
-      "name": "Reverse Polish Notation",
-      "bookLink": "./reverse_polish_notation/book.json"
-    },
-    {
-      "id": "TT",
-      "name": "Tree Traversal",
-      "bookLink": "./tree_traversal/book.json"
+      "id": "OPAU",
+      "name": "Optional parameters and unpacking",
+      "bookLink": "./optional_parameters_and_unpacking/book.json"
     }
   ]
 }
